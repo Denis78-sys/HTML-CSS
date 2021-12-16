@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping tag</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: burlywood;
+            margin: 0px;
+        }
+        h1{
+            color: red;
+        }
+        header{
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+            box-shadow: 2px 2px 4px 1px rgba(0, 0, 0, 0.438);
+        }
+
+        nav{
+            background-color: rgb(119, 117, 117);
+            padding: 3px;
+            box-shadow: 2px 2px 4px 1px rgba(0, 0, 0, 0.438);
+            text-align: center;
+        }
+
+        nav > a{
+            text-decoration: none;
+            color: white;
+            font-weight: bold;
+            margin-right: 30px;
+            
+
+        }
+
+        nav > a:hover{
+            text-decoration: underline;
+            color: violet;
+           
+        }
+
+        main{
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+            box-shadow: 2px 2px 4px 1px rgba(0, 0, 0, 0.438);
+            border-radius: 10px 0px;
+        }
+        footer{
+            background-color: black;
+            color: white;
+            text-align: center;
+            padding: 4px;
+            margin: 0px;
+        }
+        article{
+            background-color: lightgreen;
+            padding: 5px;
+        }
+        article > aside{
+            background-color: rgb(93, 150, 93);
+        }
+        
+
+        footer > p{
+            margin: 0px;
+        }
+
+        div#bola{
+            width: 100px;
+            height: 100px;
+            background-color: white;
+            margin-top: 5px;
+            margin-left: 5px;
+            border-radius: 50%;
+            box-shadow: 3px 1px 5px black;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Meu site</h1>
+        <nav>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+        </nav>
+    </header>
+
+    <main>
+        <section id="assuntos">
+
+            <p>Esportes Política Tecnologia</p>
+        </section>
+        <section id="noticias">
+
+        </section>
+        <article>
+
+            <h2>Notícias sobre o Brasil</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere incidunt eaque ullam quam esse. Molestiae voluptates, saepe consectetur illo at cum possimus voluptas dicta, magni ullam suscipit nihil aperiam natus?</p>
+            <aside>
+                <p>Artigo escrito por Denis Marques</p>
+            </aside>
+        </article>
+        <article>
+
+        </article>
+    </main>
+ 
+   
+    <footer>
+        <p>Desenvolvido por Denis Marques</p>
+    </footer>
+   
+</body>
+</html>
