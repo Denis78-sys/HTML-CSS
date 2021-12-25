@@ -90,4 +90,5 @@ footer{
     color: white;
     padding: 10px;
     text-align: center;
+    font-family: var(--font1);
 }
